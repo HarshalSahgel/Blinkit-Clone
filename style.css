@@ -1,0 +1,293 @@
+*{
+   font-family: Arial;
+   padding: 0px;
+   margin:0px;
+   box-sizing: border-box;
+}
+.Vertical-line{
+   border-left:1px solid whitesmoke;
+   height: 60px;
+}
+
+.input-area{
+   width: 45%;
+   border: 1px solid grey;
+   border-radius: 9px;
+   padding: 6px;
+   height: 49px;
+   padding-left: 10px;
+}
+
+.location>h5{
+   font-weight: 900;
+   
+   
+}
+.location>span{
+   display: inline-block;
+   margin-top: -50px;
+}
+  
+
+
+header{
+   position: sticky;
+   top: 0px;
+   z-index: 100;
+}
+
+.input-area>input{
+   border:none;
+   width: 90%;
+   height: 100%;
+   background-color: transparent;
+}
+#main-section,footer{
+   width: 85vw;
+   margin:auto;
+
+}
+#footer-r3{
+   
+   font-size: 14px;
+   color: rgb(102, 102, 102);
+   line-height:20px;
+   margin: 12px;
+}
+#footer-r2{
+   padding: 16px 0px;
+   margin:auto;
+  
+}
+footer{
+   margin-top: 120px;
+}
+
+
+.icon{
+  margin-left: 10px;
+   background-color: black;
+    padding:8px;
+   font-size: 20px;
+   color: white;
+   border-radius: 300%;
+}
+.footer-second-div{
+   font-size: 14px;
+   color: rgb(102, 102, 102);
+}
+.footer-buttons{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+.footer-r1-1{
+   flex:2;
+ 
+}
+
+.footer-r1-2{
+   flex:3;
+  
+}
+
+table{
+   width: 100%;
+}
+
+.first-table{
+   font-size: 14px;
+}
+
+.second-table{
+   font-size: 15px;
+}
+
+td{
+   color: #666;
+  
+   line-height: 24px;
+}
+
+.link-span{
+   font-size: 22px;
+   font-weight: bold;
+   display: inline-block;
+   margin-bottom: 20px;
+}
+
+.scroll-div>img{
+   display: inline-block;
+   margin-right: 15px;
+
+}
+
+.scroll-div{
+   margin:auto;
+   width:82vw;
+   overflow-x: scroll;
+   white-space:nowrap;
+   margin-top: 15px;
+}
+
+.card-heading{
+  
+  margin-bottom: 15px;
+   justify-content: space-between;
+ 
+}
+.card-heading>h3{
+   font-weight: bold;
+}
+.card-heading>span{
+   font-size: 20px;
+   color: green;
+}
+.my-card{
+   width: 200px;
+ 
+   margin-right: 20px;
+   display: inline-block !important;
+  
+}
+.card-div{
+   width: 83vw;
+   margin:auto;
+   margin-top:20px;
+   margin-bottom: 25px;
+  
+  
+}
+.my-card>img{
+   width: 90%;
+   margin: auto;
+}
+
+
+.card-span{
+   font-size: 12px;
+   color: grey;
+   margin-bottom: 10px;
+}
+
+.card-span1{
+   margin-bottom: 7px;
+}
+
+.card-span1>h5{
+   font-size: 15px;
+   font-weight: bold;
+   white-space: wrap;
+  
+}
+
+.card-spanInSpan1{
+   font-size: 12px;
+   color: #666;
+}
+
+.my-list{
+   white-space: nowrap;
+   overflow-x: scroll;
+ 
+}
+
+@media screen and (max-width:480px) {
+
+   *{
+      box-sizing: border-box !important;
+      overflow-x: hidden;
+   }
+
+   nav{
+      flex-direction: column !important;
+      padding:10px;
+      position: relative;
+      justify-content: space-around !important;
+     
+   }
+
+   
+
+   #banner{
+      display: none !important;
+   }
+   .input-area{
+      width: 90% !important;
+   }
+   .footer-r3{
+      text-align: justify !important;
+      align-items: center !important;
+      margin: auto !important;
+      color: rgb(102, 102, 102) !important;
+      line-height:20px !important;
+   }
+
+   #footer-r2{
+      flex-direction: column !important;
+      margin: auto !important;
+      margin-bottom: 20px !important;
+     
+
+   }
+   .footer-second-div{
+      text-align: justify !important;
+      margin-bottom: 14px !important;
+      width:80vw !important;
+   }
+   .footer-buttons{
+      width: 80vw !important;
+      justify-content: space-between !important;
+      margin-bottom:20px !important ;
+   }
+   .icon{
+      font-size: 15px !important;
+      padding: 6px !important;
+      color: white;
+      border-radius: 100%;
+     
+   }
+   .footer-icons{
+      overflow: hidden !important;
+      align-items: center;
+
+   }
+   
+   .footer-r1{
+      flex-direction: column !important;
+      text-align: center !important;
+   }
+   .first-table{
+      flex: 1;
+      font-size: 13px !important;
+   }
+   .second-table{
+      flex: 2;
+      font-size: 13px !important;
+      justify-content: center !important;
+      
+   }
+
+   td{
+      line-height: 24px !important;
+      word-spacing: 0%;
+     
+     
+   }
+
+   .footer-r1-1{
+      margin-bottom: 25px ;
+   }
+   .link-span{
+    display: inline !important;
+   
+    margin-bottom: 20px !important;
+   }
+   table{
+      margin-top: 15px !important;
+   }
+
+}
+ 
+
